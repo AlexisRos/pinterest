@@ -22,7 +22,7 @@ import { RouterLink } from '@angular/router';
           placeholder="Buscar por título o descripción..."
           (input)="onSearch($event)"
         />
-
+        <a class="btn" routerLink="/add">+ Nuevo</a>
       </div>
     </header>
 
@@ -98,3 +98,4 @@ export class GalleryPage implements OnInit {
 }
 
 }
+
